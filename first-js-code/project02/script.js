@@ -1,0 +1,6 @@
+localStorage.setItem('todo','watching movie')
+var myHero = localStorage.getItem('hero')
+console.log(myHero)
+console.log(localStorage.getItem('todo'))
+localStorage.setItem('todo','coding time')
+localStorage.removeItem('todo')
